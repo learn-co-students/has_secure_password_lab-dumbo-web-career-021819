@@ -1,0 +1,4 @@
+<h1>Welcome </h1>
+<%= form_with controller: 'sessions', action: 'destroy', method: 'post' do |form| %>
+  <%= form.submit value='logout'%>
+<% end %>
